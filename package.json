@@ -1,0 +1,23 @@
+{
+  "name": "50minuteangular",
+  "version": "1.0.0",
+  "description": "50 minutes of Angular JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maelstrm/50MinuteAngular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maelstrm/50MinuteAngular/issues"
+  },
+  "homepage": "https://github.com/Maelstrm/50MinuteAngular#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
