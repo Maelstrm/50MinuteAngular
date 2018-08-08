@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>50 Minutes of Angular</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Javascript -->
+    <script src="vendors/angular.js"></script>
     <script src="scripts/client.js"></script>
 </head>
-<body>
+
+<body ng-app="FoodApp">
     <h1>50 Minutes of Angular</h1>
+
+    <div ng-controller="FoodController as mc">
+
+        <input placeholder="food here" type="text" ng-model="mc.foodIn">
+
+        <button ng-click="mc.addFood()">Add food</button>
+
+        <p>{{ mc.myFood }}</p>
+        
+    </div>
 </body>
+
 </html>
